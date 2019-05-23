@@ -1,0 +1,130 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-05-16 11:51:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-05-21 17:32:20
+*/
+/*head*/
+.head{
+	height: 80px;
+	background-color: #FEF9F9;
+}
+header{
+	height: 100%;
+}
+header h1{
+	width: 427px;
+}
+header>div{
+	font-size: 0;
+	color: #333333;
+	margin-top: 28px;
+}
+.head header>div span:nth-child(1){
+	font-size: 32px;
+	vertical-align: middle;
+	margin-right: 12px;
+
+}
+.head header>div span:nth-child(2){
+	font-size: 18px;
+	vertical-align: middle;
+}
+/*nav*/
+nav{
+	height: 40px;
+	line-height: 40px;
+	background-color: #333333;
+}
+nav ul,footer ul{
+	height: 100%;
+}
+nav ul li,footer ul li{
+	float: left;
+	margin-right: 88px;
+}
+nav ul li:last-child,footer ul li:last-child{
+	margin-right: 0;
+}
+nav ul li a:hover{
+	color: #B68E50;
+}
+footer ul li a:hover{
+	color: #B68E50;
+}
+nav ul li a,footer ul li a{
+	color: #E6EEF3;
+	font-size: 18px;
+}
+/*banner*/
+.banner img{
+	width: 100%;
+
+}
+/*content*/
+.content .gs{
+	width: 1063px;
+	height: 90px;
+	border-bottom:5px solid #626264;
+	margin-top: 49px;
+	margin-left: 83px;
+}
+.gs{
+	font-size: 42px;
+	line-height: 90px;
+	color: #787878;
+}
+.jianjie{
+	width: 1063px;
+	height: 253px;
+	margin-left: 83px;
+}
+.jianjie .p2{
+	padding-top: 37px;
+	text-indent: 2em;
+	font-size: 18px;
+	font-family:"微软雅黑";
+	line-height: 30px;
+}
+.jianjie .p3{
+	text-indent: 2em;
+	font-size: 18px;
+	font-family:"微软雅黑";
+	line-height: 30px;
+}
+.content img{
+	margin-left: 140px;
+	margin-top: 83px;
+}
+
+
+
+
+/*footer*/
+footer{
+	height: 427px;
+	margin-top: 100px;
+	background:url(../img/footer.jpg) no-repeat center center;
+}
+footer ul{
+	height: 163px;	
+}
+footer ul li{
+	height: 163px;	
+	line-height: 163px;
+
+}
+footer>div p{
+	margin-left: 280px;
+	
+}
+footer>div p{
+	color: #FAF4F5;
+	font-size: 14px;
+	line-height: 50px;
+
+}
+footer div p:nth-child(1){
+	font-size: 16px;
+}
+

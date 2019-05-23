@@ -1,0 +1,209 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-05-16 11:51:07
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-05-16 22:48:12
+*/
+/*head*/
+.head{
+	height: 80px;
+	background-color: #FEF9F9;
+}
+header{
+	height: 100%;
+}
+header h1{
+	width: 427px;
+}
+header>div{
+	font-size: 0;
+	color: #333333;
+	margin-top: 28px;
+}
+.head header>div span:nth-child(1){
+	font-size: 32px;
+	vertical-align: middle;
+	margin-right: 12px;
+
+}
+.head header>div span:nth-child(2){
+	font-size: 18px;
+	vertical-align: middle;
+}
+/*nav*/
+nav{
+	height: 40px;
+	line-height: 40px;
+	background-color: #333333;
+}
+nav ul,footer ul{
+	height: 100%;
+}
+nav ul li,footer ul li{
+	float: left;
+	margin-right: 88px;
+}
+nav ul li:last-child,footer ul li:last-child{
+	margin-right: 0;
+}
+nav ul li a:hover{
+	color: #B68E50;
+}
+footer ul li a:hover{
+	color: #B68E50;
+}
+nav ul li a,footer ul li a{
+	color: #E6EEF3;
+	font-size: 18px;
+}
+/*banner*/
+.banner img{
+	width: 100%;
+
+}
+/*content*/
+.zcly_content1 h4{
+	font-size: 70px;
+    font-family: "黑体";
+    padding-top: 74px;
+}
+.zcly_content1 h4 span{
+	font-size:50px;
+	font-family: "Regular"; 
+}
+.zcly_content1 h6{
+	font-size: 30px;
+	padding-top: 54px;
+}
+.zcly_content1 .img1{
+	margin-top: 24px;
+}
+.zcly_content1 .pp1{
+	font-size: 40px;
+	display: inline-block;
+	margin-top: 60px;
+	padding-left: 80px;
+}
+.zcly_content1 .ul1{
+	margin-top: 26px;
+}
+.zcly_content1 li{
+	float: left;
+}
+.zcly_content1 li p{
+	text-align: center;
+	padding-bottom: 14px;
+}
+.zcly_content1 li p:hover{
+	color:#71372b;
+}
+.zcly_content1 .li1{
+	margin-left: 12px;
+}
+.zcly_content1 .li2{
+	margin-left: 62px;
+}
+.zcly_content1 .li3{
+	margin-left: 62px;
+}
+.zcly_content1 .li4{
+	margin-left: 62px;
+}
+.zcly_content1 .li5{
+	margin-left: 62px;
+}
+.zcly_content1 .ul2 .woshi_h6{
+	font-size: 30px;
+	padding-top: 380px;
+}
+.zcly_content1 .ul2 li{
+	float:left; 
+	margin-top: 24px;
+	margin-left: 16px;
+}
+.zcly_content1 .ul2 .li1{
+	margin-left: 0px;
+}
+.zcly_content1 .ul2 p{
+	text-align: center;
+	padding-bottom: 14px;
+}
+.zcly_content2 h6{
+	font-size: 30px;
+	padding-top: 445px;
+}
+.zcly_content2 ul{
+	margin-top: 24px;
+}
+.zcly_content2 ul li{
+	float: left;
+	margin-left: 40px;
+}
+.zcly_content2 ul li p{
+	text-align: center;
+	padding-bottom: 14px;
+}
+.zcly_content2 li p:hover{
+	color:#71372b;
+}
+.zcly_content2 ul .li4{
+	margin-top: 20px;
+}
+.zcly_content2 ul .li5{
+	margin-top: 20px;
+}
+.zcly_content2 ul .li6{
+	margin-top: 20px;
+}
+.zcly_content3 h6{
+	font-size: 30px;
+    padding-top: 540px;
+}
+.zcly_content3 ul{
+    margin-top: 24px;
+}
+.zcly_content3 ul li{
+	float: left;
+	margin-left: 80px;
+}
+.zcly_content3 ul .li1{
+	margin-left: 0px;
+}
+.zcly_content3 ul li p{
+	text-align: center;
+	padding-bottom: 14px;
+}
+.zcly_content3 li p:hover{
+	color:#71372b;
+}
+
+
+
+/*footer*/
+footer{
+	height: 427px;
+	margin-top: 300px;
+	background:url(../img/footer.jpg) no-repeat center center;
+}
+footer ul{
+	height: 163px;	
+}
+footer ul li{
+	height: 163px;	
+	line-height: 163px;
+
+}
+footer>div p{
+	margin-left: 280px;
+	
+}
+footer>div p{
+	color: #FAF4F5;
+	font-size: 14px;
+	line-height: 50px;
+
+}
+footer div p:nth-child(1){
+	font-size: 16px;
+}
+

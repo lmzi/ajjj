@@ -1,0 +1,129 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-05-16 11:51:07
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-05-16 20:28:18
+*/
+/*head*/
+.head{
+	height: 80px;
+	background-color: #FEF9F9;
+}
+header{
+	height: 100%;
+}
+header h1{
+	width: 427px;
+}
+header>div{
+	font-size: 0;
+	color: #333333;
+	margin-top: 28px;
+}
+.head header>div span:nth-child(1){
+	font-size: 32px;
+	vertical-align: middle;
+	margin-right: 12px;
+
+}
+.head header>div span:nth-child(2){
+	font-size: 18px;
+	vertical-align: middle;
+}
+/*nav*/
+nav{
+	height: 40px;
+	line-height: 40px;
+	background-color: #333333;
+}
+nav ul,footer ul{
+	height: 100%;
+}
+nav ul li,footer ul li{
+	float: left;
+	margin-right: 88px;
+}
+nav ul li:last-child,footer ul li:last-child{
+	margin-right: 0;
+}
+nav ul li a:hover{
+	color: #B68E50;
+}
+footer ul li a:hover{
+	color: #B68E50;
+}
+nav ul li a,footer ul li a{
+	color: #E6EEF3;
+	font-size: 18px;
+}
+/*banner*/
+.banner img{
+	width: 100%;
+
+}
+/*content*/
+.gy_content h4{
+	font-size: 40px;
+    padding-top: 114px;
+}
+.gy_content p{
+	width: 910px;
+	font-size: 14px;
+	text-indent: 2em;
+	padding-left: 145px;
+}
+.gy_content .p1{
+	padding-top: 105px;
+}
+.gy_content ul{
+	width: 1146px;
+	height: 812px;
+	margin-top: 175px;
+	margin-left: 54px;
+}
+.gy_content ul li{
+	float: left;
+}
+.gy_content ul .li2{
+	padding-left: 111px;
+}
+.gy_content ul .li4{
+	padding-top: 48px;
+	padding-left: 70px;
+}
+.gy_content ul .li3{
+	margin-top: -89px;
+}
+.gy_content .p4{
+	text-align: center;
+	padding-top: 170px;
+
+}
+/*footer*/
+footer{
+	height: 427px;
+	margin-top: 186px;
+	background:url(../img/footer.jpg) no-repeat center center;
+}
+footer ul{
+	height: 163px;	
+}
+footer ul li{
+	height: 163px;	
+	line-height: 163px;
+
+}
+footer>div p{
+	margin-left: 280px;
+	
+}
+footer>div p{
+	color: #FAF4F5;
+	font-size: 14px;
+	line-height: 50px;
+
+}
+footer div p:nth-child(1){
+	font-size: 16px;
+}
+

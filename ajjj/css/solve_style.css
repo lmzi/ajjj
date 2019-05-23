@@ -1,0 +1,190 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-05-16 11:51:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-05-16 14:36:26
+*/
+/*head*/
+.head{
+	height: 80px;
+	background-color: #FEF9F9;
+}
+header{
+	height: 100%;
+}
+header h1{
+	width: 427px;
+}
+header>div{
+	font-size: 0;
+	color: #333333;
+	margin-top: 28px;
+}
+.head header>div span:nth-child(1){
+	font-size: 32px;
+	vertical-align: middle;
+	margin-right: 12px;
+
+}
+.head header>div span:nth-child(2){
+	font-size: 18px;
+	vertical-align: middle;
+}
+/*nav*/
+nav{
+	height: 40px;
+	line-height: 40px;
+	background-color: #333333;
+}
+nav ul,footer ul{
+	height: 100%;
+}
+nav ul li,footer ul li{
+	float: left;
+	margin-right: 88px;
+}
+nav ul li:last-child,footer ul li:last-child{
+	margin-right: 0;
+}
+nav ul li a:hover{
+	color: #B68E50;
+}
+footer ul li a:hover{
+	color: #B68E50;
+}
+nav ul li a,footer ul li a{
+	color: #E6EEF3;
+	font-size: 18px;
+}
+/*banner*/
+.banner img{
+	width: 100%;
+	margin-bottom:10px;
+
+}
+/*content*/
+.content_1{
+	height:80px;
+}
+ .contenta{
+	font-size:38px;
+	border-bottom:2px solid #A2A6A3;
+}
+ .contentb a{
+	font-size:25px;
+	color:#000;
+}
+.content_2{
+	height:339px;
+	margin-bottom:30px;
+}
+.content_2L img{
+	line-height: 339px;
+}
+.content_2R{
+	margin-left:28px;
+}
+.content_2 li{
+	font-size:18px;
+	line-height:54px;
+}
+.content_2R{
+	width:405px;
+}
+.content_2R a{
+	color:#000;
+}
+.content_2R span{
+	float:right;
+}
+
+/*小banner*/
+.content2{
+	text-align:center;
+	margin-bottom:20px;
+	transform:scale(1);
+}
+
+
+/*content1*/
+/*问题一*/
+.content3A{
+	margin-bottom:15px;
+}
+.content3a {
+	height: 327px;
+}
+.content3R{
+	width: 596px;
+	margin-left:30px;
+}
+.content3R h3{
+	line-height:40px;
+}
+.content3R h4{
+	line-height:30px;
+}
+.content3R p{
+	font-size:14px;
+	line-height:25px;
+}
+/*问题二*/
+.content3aL{
+	margin-left:40px;
+}
+.content3L {
+	width: 694px;
+}
+.content3L h3{
+	line-height:40px;
+}
+.content3L h4{
+	line-height:30px;
+}
+.content3L p{
+	font-size:14px;
+	line-height:25px;
+}
+
+
+/*content6*/
+.content6{
+	margin-bottom:20px;
+	height:426px;
+}
+.content6 a{
+	margin:0px 45px;
+	color:#9E9899;
+}
+.content6 a p{
+	font-size:14px;
+	margin-top:20px;
+	text-align:center;
+}
+
+/*footer*/
+footer{
+	height: 427px;
+	background:url(../img/footer.jpg) no-repeat center center;
+}
+footer ul{
+	height: 163px;	
+}
+footer ul li{
+	height: 163px;	
+	line-height: 163px;
+
+}
+footer>div p{
+	margin-left: 280px;
+	
+}
+footer>div p{
+	color: #FAF4F5;
+	font-size: 14px;
+	line-height: 50px;
+
+}
+footer div p:nth-child(1){
+	font-size: 16px;
+}
